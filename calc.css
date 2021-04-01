@@ -1,0 +1,150 @@
+/* :root {
+	--primary-color:;
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #eee;
+}
+
+/* output */
+.output {
+	display: flex;
+	align-items: flex-end;
+	height: 10px;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.output .previous-operand {
+	font-size: 16px;
+}
+
+.output .current-operand {
+	font-size: 26px;
+	margin-top: 5px;
+}
+/*main tag styling*/
+main {
+	max-width: 450px;
+	border: 1px solid white;
+	background: #fff;
+	margin: 70px auto;
+}
+
+/*content styling*/
+#content {
+	background: white;
+}
+
+
+/*Rows styling*/
+#first_row {
+	margin-top: 55px;
+	background: #334;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;	
+	height: 60px;
+}
+
+.row_1 {
+	text-align: center;
+	padding-top: 20px;
+	border-right: 0.1px solid whitesmoke; 
+	color: lightblue;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.row_1:nth-child(3) {
+	background: lightblue;
+	color: black;
+}
+
+#second_row {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	background: #334;
+	height: 60px;
+}
+
+.row_2 {
+	text-align: center;
+	border-top: 0.1px solid whitesmoke; 
+	padding-top: 20px; 
+	border-right: 0.1px solid whitesmoke;
+	font-size: 20px;
+	color: lightblue;
+	cursor: pointer;
+}
+
+.row_2:nth-child(4) {
+	background: lightblue;
+	color: black;
+}
+
+#third_row {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	background: #334;
+	height: 60px;
+}
+
+.row_3 {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+	color: lightblue;
+	border-top: 0.1px solid whitesmoke;
+	border-right: 0.1px solid whitesmoke;
+	cursor: pointer;
+}
+
+.row_3:nth-child(4) {
+	background: lightblue;
+	color: black;
+}
+
+#fourth_row {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	background: #334;
+	height: 60px;
+}
+
+.row_4 {
+	text-align: center;
+	color: lightblue;
+	font-size: 20px;
+	border-top: 0.1px solid whitesmoke;
+	border-right: 0.1px solid whitesmoke;
+	padding-top: 20px;
+	cursor: pointer;
+}
+
+.row_4:nth-child(4) {
+	background: lightblue;
+	color: black;
+}
+
+#fifth_row {
+	display: grid;
+	background: #334;
+	height: 60px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.row_5 {
+	padding-top: 20px;
+	border-top: 0.1px solid whitesmoke;
+	border-right: 0.1px solid whitesmoke;
+	text-align: center;
+	color: lightblue;
+	font-size: 20px;
+	cursor: pointer;
+}
